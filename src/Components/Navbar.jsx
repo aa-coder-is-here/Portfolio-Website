@@ -1,5 +1,5 @@
 "use client";
-import { Logo, NavLinks } from "@/Data/Data";
+import { HeaderButton, Logo, NavLinks } from "@/Data/Data";
 import HireButton from "@/UI Components/HireButton";
 import Link from "next/link";
 import { CgMenuLeftAlt } from "react-icons/cg";
@@ -31,7 +31,7 @@ const Navbar = () => {
 
         {/* Hire button is here */}
         <div className="w-1/3 flex justify-end items-center gap-3">
-            <HireButton text = "Hire" text2 = "Me" />
+            <HireButton text = {HeaderButton[0]} text2 = {HeaderButton[1]} />
 
             {/* Mobile Menu is */}
             <div className="white md:hidden text-3xl rotate-180 cursor-pointer">
