@@ -9,7 +9,7 @@ import { useSidebar } from "./Context";
 const Navbar = () => {
     const {isOpen , setOpen} = useSidebar();
     return (
-        <div className="w-full h-20 fixed top-0 left-0 flex justify-center md:mt-6">
+        <div className="w-full h-20 fixed top-0 left-0 flex justify-center md:mt-6 z-10">
         <div className="w-11/12 h-full md:rounded-full bg-[linear-gradient(0deg,#32323233,#64646433)] backdrop-blur-sm flex justify-between items-center md:px-8"> 
         {/* Logo is here*/}
         <div className="w-1/3 space-x-1 font-[900] md:text-4xl text-2xl">
