@@ -32,7 +32,7 @@ const HomeSection = () => {
             {/* The Second pic section is here  */}
             <div className="w-full h-full relative flex items-end">
             
-              <div className="w-full h-full relative z-2">
+              <div className="w-full h-full relative z-2 ms-0 md:-ms-4">
                 <Image className="grayscale" src={Mine} fill style={{ objectFit: "cover" }} alt="Mine Profile Pic" />
               </div>
             </div>
