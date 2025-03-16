@@ -12,6 +12,12 @@
     position: relative;
     z-index: 1;
   }
+  @media (max-width: 789px) {
+    .breath__circle{
+      --size: 500px;
+    }
+  }
+
   
   .breath__circle .breath {
     position: absolute;
