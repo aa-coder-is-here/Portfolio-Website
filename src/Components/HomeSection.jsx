@@ -1,3 +1,5 @@
+"use client";
+import Mine from "../../public/assets/images/Mine.png";
 import { MainHeading } from "@/Data/Data";
 import BreathCircle from "@/UI Components/BreathMain";
 import Image from "next/image";
@@ -23,13 +25,15 @@ const HomeSection = () => {
             </div>
 
             {/* The Second pic section is here  */}
-            <div className="w-full h-full relative">
+            <div className="w-full h-full relative flex items-end">
             
              {/* Overlay Div */}
             <div className="absolute right-10 top-12">
             <BreathCircle />
                </div>
-              <Image src="" fill alt="Mine Profile Pic" />
+              <div className="relative z-2">
+                <Image className="grayscale" src={Mine} width={900} height = {900} alt="Mine Profile Pic" />
+              </div>
             </div>
         </div>
         </div>
