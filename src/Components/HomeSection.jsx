@@ -16,7 +16,7 @@ const HomeSection = () => {
         <div className="w-full h-full flex flex-col lg:flex-row items-center relative z-2">
         
             {/* The first section is here */}
-            <div className="w-full h-full flex flex-col lg:mt-88 justify-center lg:justify-start lg:items-end items-center">
+            <div className="w-full h-full flex flex-col lg:mt-88 justify-center lg:justify-start items-center">
             
             <div className="flex flex-col gap-0 lg:leading-[99px]">
                 {
