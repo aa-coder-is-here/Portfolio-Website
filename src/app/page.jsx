@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar";
 import { Poppins } from "next/font/google";
 import HomeSection from "@/Components/HomeSection";
 import CodeBlock from "@/Components/CodeBlock";
+import HoleSection from "@/Components/HoleSection";
 const poppins = Poppins({
     weight: ["100","200","300","400","500","600","700","800","900"],
 });
@@ -17,6 +18,7 @@ const Home = () => {
                 <Navbar />
                 <HomeSection />
                 <CodeBlock />
+                <HoleSection />
             </div>
         </>
     );
