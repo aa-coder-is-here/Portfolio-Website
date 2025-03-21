@@ -19,7 +19,7 @@ const HoleSection = () => {
                 {/* Content is place here */}
                 <div className="w-full h-full flex flex-col">
                     <span className="text-3xl font-[600]">My Skills</span>
-                    <BGSvg />
+                    {/* <BGSvg /> */}
                 </div>
                 </div>
 
