@@ -22,3 +22,7 @@ export const CodeText = {
         {SubHead: "10+" , Text: "O.S Contribution"},
     ]
 }
+
+// Hole Section data is as following
+
+export const LoaderName = "Ali Arif"
